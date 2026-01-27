@@ -1,0 +1,25 @@
+{
+  "name": "docabot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/bot.ts",
+    "dev": "tsx src/bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docxtemplater": "^3.67.6",
+    "dotenv": "^17.2.3",
+    "grammy": "^1.39.3",
+    "pizzip": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
